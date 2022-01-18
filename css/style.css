@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+}
+main {
+    background-color: hsl(216, 50%, 16%);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    border-radius: 1em;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    max-width: 340px;
+    box-shadow: 0 30px 18px black;
+}
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.firstp {
+    color: cyan;
+}
+/* Para ID se pone #*/
+#creator {
+    color: hsl(0, 0%, 100%);
+}
+/* Para class es punto .*/
+
+.division1 {
+    display: flex;
+}
+
+.rightp {
+    display: inline-block;
+    margin-left: auto;
+}
+.card-code {
+    color: white;
+    text-decoration: none;
+}
+.card_number {
+    display: inline-block;
+}
+.card-code:hover {
+    color: cyan;
+}
+.mainimg {
+    border-radius: 1rem;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.division2 {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-top: 18px;
+    padding-top: 18px;
+    display: flex;
+    align-content: center;
+}
+.division2 img {
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 36px;
+    margin-right: 18px;
+}
+.division2 a {
+    text-decoration: none;
+    color: white;
+}
+.division2 a:hover {
+    color: cyan;
+}
+.maindiv p {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.maincard {
+    margin-bottom: 18px;
+}
+.maincard:hover .mainimg {
+    opacity: 0.3;
+}
+aside,
+section {
+    display: inline-block;
+}
